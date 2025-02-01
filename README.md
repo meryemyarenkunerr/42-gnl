@@ -2,7 +2,7 @@
 
 This project requires writing a function `get_next_line()` in C that reads a line from a file descriptor, one line at a time. The function should handle both file and standard input, returning a line that includes the terminating newline character unless the file ends without one. The project introduces the concept of static variables in C, helping you understand how to manage memory and control state across multiple function calls.
 
-## Features
+## Features
 
 * The function `get_next_line(int fd)` should return a line from the file associated with the provided file descriptor.
 * The function should return `NULL` when there's nothing mor to read or if an error occur.
